@@ -1,4 +1,4 @@
-# nuxt 3 educational project in Spanish and english
+# Nuxt 3 educational project for Kids and Parents in Spanish and English
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
