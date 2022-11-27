@@ -3,6 +3,13 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
-    '@vueuse/nuxt'
-  ]
+    '@vueuse/nuxt',
+    '@nuxt/content'
+  ],
+  content: {
+    // https://content.nuxtjs.org/api/configuration
+    navigation: {
+      fields: ['slug', 'fecha']
+    }
+  }
 })

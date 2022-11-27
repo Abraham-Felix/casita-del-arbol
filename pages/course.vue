@@ -1,10 +1,8 @@
 <template>
     <div>
       <div class="prose mb-12">
-        <h1>
-          <span class="font-medium">
-            <span class="font-bold">{{ title }}</span>
-          </span>
+        <h1 class="text-lg">  
+            <span class="font-bold text-slate-500 ">{{ title }}</span>        
         </h1>
       </div>
   
@@ -28,16 +26,16 @@
               class="flex flex-row space-x-1 no-underline prose-sm font-normal py-1 px-4 -mx-4"
               :to="lesson.path"
               :class="{
-              'text-blue-500':
+              'text-teal-500':
                 lesson.path === $route.fullPath,
-              'text-gray-600':
+              'text-slate-600':
                 lesson.path !== $route.fullPath,
             }"
             >
               <!-- the +1 makes it start the count from 1 and up 
                     this works because we are using the index in v-for
                   -->
-              <span class="text-gray-500">{{ index + 1 }}.</span>
+              <span class="text-slate-500">{{ index + 1 }}.</span>
               <span>{{ lesson.title }}</span>
             </NuxtLink>
           </div>
@@ -54,7 +52,7 @@
               </p>
               <p>
                 <button
-                  class="hover:cursor-pointer bg-gray-500 text-white font-bold py-1 px-3 rounded"
+                  class="hover:cursor-pointer bg-slate-500 text-white font-bold py-1 px-3 rounded"
                   @click="resetError(error)"
                 >
                   reset
