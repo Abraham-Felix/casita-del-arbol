@@ -4,8 +4,19 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
-    '@nuxt/content'
+    '@nuxt/content',
+    "@nuxtjs/color-mode",
+    "@nuxtjs/tailwindcss"
   ],
+  tailwindcss: {
+    // add '~tailwind.config` alias
+    jit: true,
+    exposeConfig: true,
+    configPath: '~/config/tailwind.js'
+  },
+  colorMode: {
+    classSuffix: ""
+  },
   content: {
     // https://content.nuxtjs.org/api/configuration
     navigation: {

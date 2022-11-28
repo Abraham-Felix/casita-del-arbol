@@ -1,0 +1,77 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+/* Dark Theme */
+.dark body {
+  @apply bg-slate-900 text-white;
+}
+.dark .dark-bg {
+    @apply bg-slate-800
+}
+.dark .dark-bg-1 {
+    @apply bg-slate-700
+}
+.dark .dark-bg-2 {
+    @apply bg-slate-600
+}
+.dark .dark-bg-hover:hover {
+    @apply bg-slate-700
+}
+.dark .dark-bg-hover-1:hover {
+    @apply bg-slate-600
+}
+.dark .dark-bg-hover-2:hover {
+    @apply bg-slate-500
+}
+.dark .dark-text {
+    @apply text-slate-100
+}
+.dark .dark-text-1 {
+    @apply text-slate-300
+}
+.dark .dark-text-2 {
+    @apply text-slate-400
+}
+.dark .dark-text-hover-1:hover {
+    @apply text-slate-200
+}
+.dark .dark-border{
+    @apply border-slate-700 
+}
+/* Light Theme */
+.light .light-bg {
+    @apply bg-white
+}
+.light .light-bg-1 {
+    @apply bg-slate-50
+}
+.light .light-bg-2 {
+    @apply bg-slate-100
+}
+.light .light-bg-hover:hover {
+    @apply bg-slate-50
+}
+.light .light-bg-hover-1:hover {
+    @apply bg-slate-300
+}
+.light .light-bg-hover-2:hover {
+    @apply bg-slate-500
+}
+.light .light-text {
+    @apply text-slate-900
+}
+.light .light-text-1 {
+    @apply text-slate-500
+}
+.light .light-text-2 {
+    @apply text-slate-300
+}
+.light .light-text-hover-1:hover {
+   @apply text-slate-900
+}
+.light .articles-content p {
+    @apply text-slate-500
+  }
+  .light .light-border{
+    @apply border-slate-100 
+}
