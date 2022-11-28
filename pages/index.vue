@@ -1,6 +1,6 @@
 <template>
     <img src="https://img.icons8.com/clouds/512/deciduous-tree.png"/>
-    <H1 class="text-xl font-bold">Casita Del Arbol</H1>
+    <h1 class="text-xl font-bold">Casita Del Arbol</h1>
     <!-- <NuxtLink 
       class="underline font-medium" 
       :href="firstLesson.path"
