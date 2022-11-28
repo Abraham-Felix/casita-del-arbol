@@ -1,3 +1,7 @@
+---
+slug: 5
+---
+
 # La vida fuera del Jardín de Edén
 
 Dios había expulsado del jardín a Adan y Eva, ya no podían entrar. Ahora tenían que trabajar muy duro para poder tener alimento, y en vez de tener árboles con frutos deliciosos, les crecian espinas y plantas que no daban fruto. Esto sucedió porque Adan y Eva fueron desobedientes, no quisieron ser amigos de Dios.

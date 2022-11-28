@@ -1,3 +1,7 @@
+---
+slug: 4
+---
+
 # Adán y Eva pierden su lugar en el Jardín
 
 ¡Dios ha echado a Adán y a Eva del Jardín del Edén! Pero, ¿por qué?

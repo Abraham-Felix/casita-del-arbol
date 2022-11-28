@@ -1,3 +1,7 @@
+---
+slug: 3
+---
+
 # Los seres humanos llegan a la Tierra
 
 Ahora Dios había hecho un jardín precioso y lo llenó de todo tipo de plantas y animales, pero aún faltaba algo más. ¿Puedes adivinar qué es?

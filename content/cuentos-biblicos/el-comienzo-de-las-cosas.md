@@ -1,3 +1,7 @@
+---
+slug: 1
+---
+
 # El comienzo de las cosas
 
 Existen cosas buenas y malas, las buenas son de parte de Dios. Por ejemplo, Dios hizo la Luna y las estrellas para que por las noches hubiera un poco de luz. Hizo el Sol para darnos calor y luz durante el día. Y claro, también hizo la tierra para que fuera nuestro hogar.

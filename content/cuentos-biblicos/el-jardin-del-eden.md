@@ -1,3 +1,7 @@
+---
+slug: 2
+---
+
 # El Jardín del Edén
 
 ¡Dios ha hecho a los árboles y a los animales también! Todo se ha puesto muy hermoso. Las hierbas verdes, las flores de colores, los animales bebiendo y comiendo. Veamos cómo lo ha hecho Dios.

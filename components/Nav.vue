@@ -43,7 +43,7 @@
                     </div>
                     <div class="light-bg-1 dark-bg px-5 py-5 sm:px-8 sm:py-8">
                       <div>
-                        <h3 class="text-base font-medium light-text-1 dark-text">Articulos recientes</h3>
+                        <h3 class="text-base font-medium light-text-1 dark-text">Artículos recientes</h3>
                         <ul role="list" class="mt-4 space-y-4">
                           <li v-for="post in recentPosts" :key="post.id" class="truncate text-base">
                             <a :href="post.href" class="font-medium text-slate-900 hover:text-slate-700">{{ post.name }}</a>
@@ -63,9 +63,10 @@
             </Popover>
           </PopoverGroup>
           <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-            <a href="/login" class="whitespace-nowrap text-base font-medium light-text-1 dark-text-hover-1 light-text-hover-1">Iniciar sesion</a>
+            <!-- <a href="/login" class="whitespace-nowrap text-base font-medium light-text-1 dark-text-hover-1 light-text-hover-1">Iniciar sesion</a>
             <a href="#" class="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700">Crear cuenta</a>
-            <ColorMode class="ml-3"/>
+            -->
+            <ColorMode class="ml-3"/> 
           </div>
         </div>
       </div>
@@ -100,14 +101,14 @@
                 <!-- <a href="#" class="text-base font-medium text-slate-900 hover:text-slate-700">Blog</a> -->
                 <a v-for="item in resources" :key="item.name" :href="item.href" class="text-base font-medium text-slate-900 hover:text-slate-700">{{ item.name }}</a>
               </div>
-              <div>
+              <!-- <div>
                 <a href="#" class="flex w-full items-center justify-center rounded-md border border-transparent bg-teal-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-700">Crear cuenta</a>
                 <p class="mt-6 text-center text-base font-medium text-slate-500">
                   Ya tienes cuenta?
                   {{ ' ' }}
                   <a href="/login" class="text-teal-600 hover:text-teal-500">Iniciar sesion</a>
                 </p>
-              </div>
+              </div> -->
             </div>
           </div>
         </PopoverPanel>
